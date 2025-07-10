@@ -79,6 +79,14 @@ function showCaseStudy(studyNumber) {
   }
 }
 
+// Listen for system theme changes
+prefersDarkScheme.addEventListener('change', e => {
+  const newTheme = e.matches ? 'dark' : 'light';
+  document.documentElement.setAttribute('data-theme', newTheme);
+  localStorage.setItem('theme', newTheme);
+});
+
+
 // Go Back Function
 function goBack() {
   // Hide all case study details
