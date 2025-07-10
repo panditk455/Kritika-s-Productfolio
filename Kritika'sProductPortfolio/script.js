@@ -12,8 +12,13 @@ themeToggle.addEventListener('click', function(e) {
 });
 
 // Check for saved theme preference or use system preference
-const currentTheme = localStorage.getItem('theme') || 
-                    (prefersDarkScheme.matches ? 'dark' : 'light');
+let currentTheme = localStorage.getItem('theme');
+
+if (!currentTheme) {
+  currentTheme = 'light'; // Force light mode by default
+  localStorage.setItem('theme', 'light');
+}
+
 document.documentElement.setAttribute('data-theme', currentTheme);
 
 // Toggle theme on button click
