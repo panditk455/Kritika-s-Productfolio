@@ -27,7 +27,24 @@
                 <!-- Case Study 1 -->
 
 
-                <div class="case-study-card" onclick="showCaseStudy(1)">
+                
+                 <div class="case-study-card" onclick="showCaseStudy(1)">
+                  <div class="case-study-image">
+                      <img src="images/main page/FoodAccess.png" alt="Illustration of Food Accessibility App">
+                    </div>
+                  <div class="case-study-content">
+                      <h3 class="case-study-title">CampusConnect: Food Security App</h3>
+                      <p class="case-study-description">Led UX redesign and data integration for an app connecting students to free meals, reducing food insecurity and improving campus resource access.</p>
+                      <div class="case-study-tags">
+                          <span class="tag">UX Design</span>
+                          <span class="tag">Data Integration</span>
+                          <span class="tag">Social Impact</span>
+                      </div>
+                      <button class="read-more-btn">Read More</button>
+                  </div>
+              </div>
+
+                <div class="case-study-card" onclick="showCaseStudy(2)">
                     <div class="case-study-image">
                       <img src="images/main page/CarlsChat.png" alt="Illustration for Carls Swap App">
                     </div>
@@ -39,27 +56,11 @@
                         <span class="tag">Figma Prototype</span>
                         <span class="tag">Usability Testing</span>
                       </div>
-                      <button class="read-more-btn">Read Case Study</button>
+                      <button class="read-more-btn">Read More</button>
                     </div>
                   </div>
                   
-        
-                <!-- Case Study 2 -->
-                <div class="case-study-card" onclick="showCaseStudy(2)">
-                    <div class="case-study-image">
-                        <img src="images/main page/FoodAccess.png" alt="Illustration of Food Accessibility App">
-                      </div>
-                    <div class="case-study-content">
-                        <h3 class="case-study-title">CampusConnect: Food Security App</h3>
-                        <p class="case-study-description">Led UX redesign and data integration for an app connecting students to free meals, reducing food insecurity and improving campus resource access.</p>
-                        <div class="case-study-tags">
-                            <span class="tag">UX Design</span>
-                            <span class="tag">Data Integration</span>
-                            <span class="tag">Social Impact</span>
-                        </div>
-                        <button class="read-more-btn">Read Case Study</button>
-                    </div>
-                </div>
+
                 
 
               <!-- Case Study 3 -->
@@ -75,7 +76,7 @@
             <span class="tag">WebSockets</span>
             <span class="tag">Student Community</span>
         </div>
-        <button class="read-more-btn">Read Case Study</button>
+        <button class="read-more-btn">Read More</button>
     </div>
 </div>
 
@@ -94,7 +95,7 @@
                 <span class="tag">Enterprise</span>
                 <span class="tag">Analytics</span>
             </div>
-            <button class="read-more-btn">Read Case Study</button>
+            <button class="read-more-btn">Read More</button>
         </div>
     </div>
 
@@ -130,7 +131,7 @@
                             <span class="tag">Participatory Design</span>
                             <span class="tag">Human-Centered AI</span>
                         </div>
-                        <button class="read-more-btn">Read Case Study</button>
+                        <button class="read-more-btn">Read More</button>
                     </div>
                 </div>
                 
@@ -141,6 +142,192 @@
 
 <!-- Case study detail page -->
 <div class="case-study-detail" id="caseStudy1">
+  <div class="detail-header">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <h1>CampusConnect: Bridging Food Access Gaps for International Students</h1>
+  </div>
+
+  <div class="detail-content">
+    <div class="section">
+      <h2>Introduction</h2>
+      <h3>Project Overview</h3>
+      <p>
+        CampusConnect is a mobile app prototype I helped build to address a challenge very close to my heart,food insecurity among international students. Many face not only financial hardships but also transportation and cultural barriers that make it hard to access nutritious food.
+        Drawing from my own experiences as an international student, I worked with my team to design a system that connects students to surplus food, rideshares, and community resources, aiming to restore dignity and build supportive networks on campus.
+      </p>
+
+      <h3>Timeline</h3>
+      <p>Ongoing(April – June 2025)</p>
+
+      <h3>Team</h3>
+      <p>Kritika, Cuong, Daniel</p>
+    </div>
+
+    <div class="section">
+      <h2>Problem Discovery & User Research</h2>
+      <h3>Research Methodology</h3>
+      <ul>
+        <li>Conducted interviews with 15 international students across 3 campuses</li>
+        <li>Distributed surveys to 120+ students dealing with food access challenges</li>
+        <li>Observed dining hall operations and spoke with campus staff</li>
+        <li>Engaged with stakeholders from dining, transportation, and international offices</li>
+      </ul>
+
+      <h3>Key Findings</h3>
+      <ul>
+        <li>Lack of transportation to grocery stores or pantries</li>
+        <li>Financial barriers due to currency gaps and work restrictions</li>
+        <li>Cultural disconnect when finding familiar, affordable food</li>
+        <li>Underused food resources and lack of awareness</li>
+        <li>Isolation and lack of peer support networks</li>
+      </ul>
+
+      <div class="user-quotes-box">
+        <h3>What Users Said</h3>
+        <blockquote>“I skip meals sometimes because I don’t have money or a car, and I see so much food wasted in the dining hall. I wish there was a better way to access food that fits my culture and dietary needs.”</blockquote>
+        <blockquote>“I can’t work off-campus, so my budget is really tight. Some weeks, I survive on instant noodles just to make rent.” </blockquote>
+        <blockquote>“I didn’t even know the campus had a food pantry until my third year. These resources exist, but no one talks about them.” </blockquote>
+        <blockquote>“I often feel embarrassed asking for help. It would be nice to have something that doesn’t make me feel like a burden.”</blockquote>
+        <blockquote>“Sometimes I just want to cook something from home, but the ingredients are hard to find or super expensive.” </blockquote>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Problem Statement & Opportunity</h2>
+      <p>
+        International students face food insecurity driven by financial, logistical, and cultural barriers, despite campuses generating tons of edible food waste and offering underpublicized resources.
+      </p>
+
+      <h3>Opportunity Space</h3>
+      <ul>
+        <li>Make surplus food more accessible</li>
+        <li>Reduce food waste through redistribution</li>
+        <li>Enable shared transportation to grocery stores</li>
+        <li>Foster community through peer-based food sharing</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Design Process</h2>
+
+      <h3>Approach</h3>
+      <ul>
+        <li>Design Thinking with student-centered empathy</li>
+        <li>Agile UX with weekly user testing and iteration</li>
+        <li>Accessibility-first for ESL and low-digital-literacy users</li>
+      </ul>
+
+      <h3>Paper Prototype</h3>
+      <p>
+        We started with a hand-drawn paper prototype to explore ideas quickly and validate basic layouts. Students provided feedback on navigation clarity and feature relevance before we moved to digital tools.
+      </p>
+      <img src="images/casestudy4/paperprototype.png" alt="Paper Prototype" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
+
+      <h4>User Feedback Highlights (Paper)</h4>
+      <ul>
+        <li>“I like seeing everything on one dashboard, it makes things feel organized.”</li>
+        <li>“This feels like something I’d use when I’m stressed and need quick help.”</li>
+        <li>“Can this include food from my culture? That would be amazing.”</li>
+        <li>“Emergency food help should be easier to spot.”</li>
+      </ul>
+
+      <h3>Low-Fidelity Prototype</h3>
+      <p>
+        We created black-and-white Figma wireframes focused on usability. These low-fidelity designs helped us test navigation flows and screen structure without visual distractions.
+      </p>
+
+      <h3>Mid/High-Fidelity Prototype</h3>
+      <p>
+        For the next iteration, we introduced visual hierarchy, icons, and culturally inclusive design. We chose green as our primary color because it evokes calm, wellness, and sustainability, matching the values of dignity and nourishment we want this app to promote.
+      </p>
+
+      <h4>See the prototype:</h4>
+      <p><a href="https://www.figma.com/design/rLU8zE51Te06YvUulfNdRH/Campus-Connect?node-id=2-394&t=r80ClmvPw7QJ2sDf-1" target="_blank">View CampusConnect on Figma</a></p>
+       
+      <h3>Low Fidelity Prototype</h3>
+      <img src="images/casestudy4/low1.png" alt="Low Fidelity Prototype 1" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
+
+
+      <img src="images/casestudy4/low2.png" alt="Low Fidelity Prototype 1" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
+
+      <h3>Mid/High Fidelity Prototype 1</h3>
+      <img src="images/casestudy4/mid1.png" alt="Mid Fidelity Prototype I" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
+
+
+      <img src="images/casestudy4/mid2.png" alt="Mid Fidelity Prototype II" style="max-width: 100%; border-radius: 8px; margin-top: 10px;">
+
+
+      <h3>Development in Progress</h3>
+      <p>
+        We’re actively building the app using React Native (frontend), Node.js (backend), and PostgreSQL (database). MVP development is focused on pantry access, food alerts, and rideshare matching.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Core Features</h2>
+      <ul>
+        <li><strong>Ride-Share Hub:</strong> Request rides to food resources with voucher integration</li>
+        <li><strong>Surplus Food Alerts:</strong> Get notified when dining halls have leftovers</li>
+        <li><strong>Peer Food Sharing:</strong> Exchange cultural meals and ingredients</li>
+        <li><strong>Pantry Reservations:</strong> Browse and reserve food from campus pantries</li>
+        <li><strong>Recipe Library:</strong> Share and discover meals made from available items</li>
+        <li><strong>Emergency Food Requests:</strong> Confidential assistance with dignity</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Testing & Feedback</h2>
+
+      <h3>Usability Testing Results</h3>
+      <ul>
+        <li>94% task completion rate on key flows</li>
+        <li>Average satisfaction rating: 4.7/5</li>
+        <li>Met WCAG 2.1 AA standards with multilingual support</li>
+      </ul>
+
+      <h3>Student Reactions</h3>
+      <ul>
+        <li>“The pantry reservation system made me feel empowered to access food on my own terms.”</li>
+        <li>“Sharing meals helped me feel connected when I was far from home.”</li>
+        <li>“Finding someone to go grocery shopping with made a big difference.”</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Current Status & Future Plans</h2>
+      <p>
+        We’re currently building the MVP and preparing for pilot testing. The app continues to evolve based on student input.
+      </p>
+
+      <h3>Next Steps</h3>
+      <ul>
+        <li>Launch MVP with core functionality</li>
+        <li>Pilot with 1-2 universities</li>
+        <li>Form partnerships with campus departments</li>
+        <li>Implement secure transactions and privacy protections</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Conclusion</h2>
+
+      <h3>What We Learned</h3>
+      <ul>
+        <li>Real stories reveal the true depth of food insecurity</li>
+        <li>Trust and dignity are non-negotiable in inclusive design</li>
+        <li>Co-creating with students leads to meaningful solutions</li>
+        <li>Accessibility and cultural awareness must be built in from day one</li>
+      </ul>
+
+      <h3>Final Reflection</h3>
+      <p>
+        CampusConnect isn’t just an app, it’s a mission. I’m proud to have helped create a tool that could give students the dignity of choice, community, and nourishment while navigating college life.
+      </p>
+    </div>
+  </div>
+</div>
+
+<div class="case-study-detail" id="caseStudy2">
     <div class="detail-header">
         <button class="back-btn" onclick="goBack()">←</button>
         <h1>Carls Swap: Carleton Student Exchange Platform</h1>
@@ -367,162 +554,6 @@
 </div>
 
 
-    <!-- Case Study 2 Template -->
-<div class="case-study-detail" id="caseStudy2">
-    <div class="detail-header">
-        <button class="back-btn" onclick="goBack()">←</button>
-        <h1>CampusConnect: Bridging Food Access Gaps for International Students</h1>
-   </div>
-
-    <div class="detail-content">
-        <div class="section">
-            <h2>Introduction</h2>
-            <h3>Project Overview</h3>
-            <p>CampusConnect is a mobile application prototype designed to support international students experiencing food insecurity due to transportation, financial, and cultural barriers. Through design thinking and user-centered research, we created a system that streamlines access to surplus food, shared rides, and community resources. Our prototype aims to empower universities to reduce waste, support student well-being, and build stronger cultural communities.</p>
-
-            <h3>Timeline</h3>
-            <p>1.5 months (April – June 2025)</p>
-
-            <h3>Team</h3>
-            <p>Kritika (Product Manager), Kripa (UX Designer), Navin (Engineer)</p>
-        </div>
-
-        <div class="section">
-            <h2>Problem Discovery & User Research</h2>
-            <h3>Research Methodology</h3>
-            <ul>
-                <li>Semi-structured interviews with 15 international students across 3 campuses</li>
-                <li>Surveys distributed to 120+ students facing food access challenges</li>
-                <li>Observational studies of dining hall operations and food waste</li>
-                <li>Stakeholder interviews with campus dining services, transportation offices, and international student advisors</li>
-            </ul>
-
-            <h3>Key Findings</h3>
-            <ul>
-                <li>73% of students lacked reliable transportation to ethnic grocery stores or food pantries</li>
-                <li>Currency conversion and visa-related work restrictions heightened financial hardship</li>
-                <li>Students faced cultural barriers accessing familiar foods</li>
-                <li>Existing resources like food pantries were poorly publicized or underutilized</li>
-                <li>Many felt isolated and unaware of student-to-student support opportunities</li>
-            </ul>
-
-            <h3>Critical User Insight</h3>
-            <blockquote>“I skip meals sometimes because I don’t have money or a car, and I see so much food wasted in the dining hall. I wish there was a better way to access food that fits my culture and dietary needs.” - International Student from Nepal</blockquote>
-        </div>
-
-        <div class="section">
-            <h2>Problem Statement & Opportunity</h2>
-            <p>International students experience food insecurity due to a convergence of logistical, financial, and cultural barriers, even as university campuses generate significant edible food waste and offer underpublicized support programs.</p>
-
-            <h3>Opportunity Space</h3>
-            <ul>
-                <li>Improve access to underutilized surplus food and dining partnerships</li>
-                <li>Reduce food waste through timely redistribution to students</li>
-                <li>Create a shared transportation network for grocery runs</li>
-                <li>Strengthen student community through peer food sharing and support</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Design Process</h2>
-            <h3>Approach</h3>
-            <ul>
-                <li>Design Thinking: Empathize → Define → Ideate → Prototype → Test</li>
-                <li>Agile UX: Weekly feedback loops and quick iteration</li>
-                <li>Accessibility-first: Designed for non-native English speakers and low-digital-literacy users</li>
-            </ul>
-
-            <h3>Information Architecture</h3>
-            <ul>
-                <li>Central dashboard for food, transportation, and community resources</li>
-                <li>Category-based navigation with progressive disclosure of advanced features</li>
-            </ul>
-
-            <h3>Low-to-Mid Fidelity Prototypes</h3>
-            <p>Created wireframes in Figma and validated them through 4 rounds of usability testing. Incorporated stakeholder feedback to improve clarity, accessibility, and navigation. Updated prototypes included pantry reservation, ride requests, cultural recipe exchange, and food sharing features.</p>
-
-            <!-- Prototype Gallery -->
-            <div class="prototypes-vertical">
-                <div class="prototype-item">
-                  <h3>Low Fidelity Prototype 1</h3>
-                  <img src="images/casestudy4/low1.png" alt="Low Fidelity Prototype 1">
-                </div>
-              
-                <div class="prototype-item">
-                  <h3>Low Fidelity Prototype 2</h3>
-                  <img src="images/casestudy4/low2.png" alt="Low Fidelity Prototype 2">
-                </div>
-              
-                <div class="prototype-item">
-                  <h3>Mid Fidelity Prototype 1</h3>
-                  <img src="images/casestudy4/mid1.png" alt="Mid Fidelity Prototype 1">
-                </div>
-              
-                <div class="prototype-item">
-                  <h3>Mid Fidelity Prototype 2</h3>
-                  <img src="images/casestudy4/mid2.png" alt="Mid Fidelity Prototype 2">
-                </div>
-              </div>
-              
-
-        <div class="section">
-            <h2>Core Features</h2>
-            <ul>
-                <li><strong>Ride-Share Hub:</strong> Request rides to grocery stores or food pantries, with university voucher integration</li>
-                <li><strong>Surplus Food Alerts:</strong> Real-time notifications when dining halls have leftover food</li>
-                <li><strong>Peer Food Sharing:</strong> Exchange home-cooked meals, unused ingredients, and cultural spices</li>
-                <li><strong>Campus Pantry Access:</strong> Reserve items from local food pantries with real-time inventory</li>
-                <li><strong>Cultural Recipe Library:</strong> Share and browse recipes using available food</li>
-                <li><strong>Emergency Food Requests:</strong> Confidential system for urgent help</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Testing & Feedback</h2>
-            <h3>Usability Testing</h3>
-            <ul>
-                <li>Task success rate: 94% (finding rides, reserving food, sharing items)</li>
-                <li>Average satisfaction score: 4.7/5</li>
-                <li>Accessibility: Met WCAG 2.1 AA standards; text, iconography, and multi-language labels validated by users</li>
-            </ul>
-
-            <h3>User Feedback Highlights</h3>
-            <ul>
-                <li>“The pantry reservation system felt empowering.”</li>
-                <li>“Being able to share meals made me feel less alone.”</li>
-                <li>“I finally found people to go grocery shopping with.”</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Current Status & Future Plans</h2>
-            <p>While the prototype has been thoroughly tested and positively received, it is not yet deployed. We are now working on converting the Figma design into a cross-platform mobile application using React Native, Node.js, and PostgreSQL.</p>
-
-            <h3>Next Steps</h3>
-            <ul>
-                <li>Develop MVP with core features (transportation, surplus food, pantry integration)</li>
-                <li>Pilot app with 1–2 universities to gather real-world usage data</li>
-                <li>Secure institutional partnerships for sustainability and scaling</li>
-                <li>Expand payment and privacy options (e.g., Zelle, data encryption)</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Conclusion</h2>
-            <h3>Lessons Learned</h3>
-            <ul>
-                <li>Real-world stories expose design opportunities hidden in data alone</li>
-                <li>Tech for good requires systems thinking and trust-building with users</li>
-                <li>Stakeholder collaboration shapes features and implementation strategy</li>
-                <li>Accessible, culturally sensitive design builds stronger community trust</li>
-            </ul>
-
-            <h3>Final Reflection</h3>
-            <p>CampusConnect is more than an academic design challenge, it’s a blueprint for how we can use technology to tackle systemic issues like food insecurity and cultural isolation. We hope to launch this app to create safer, more inclusive college environments where no student has to choose between eating and attending class.</p>
-        </div>
-    </div>
-</div>
-</div>
 
         
 <div class="case-study-detail" id="caseStudy3">
@@ -616,134 +647,146 @@
     </div>
   </div>
   
-  
-
-
-
       <!-- Case Studies 3-6 Templates (abbreviated for brevity) -->
+      
       <div class="case-study-detail" id="caseStudy4">
         <div class="detail-header">
-            <button class="back-btn" onclick="goBack()">←</button>
-            <h1>WanderLog: Personal Travel Journal App</h1>
-
+          <button class="back-btn" onclick="goBack()">←</button>
+          <h1>WanderLog: A Personal Travel Journal App</h1>
         </div>
-    
+      
         <div class="detail-content">
-            <div class="section">
-                <h2>Why WanderLog?</h2>
-                <p>
-                    During our study abroad semester, my teammate and I found ourselves constantly switching between Google Sheets, gallery apps, maps, and notebooks to keep track of where we had been, how much we had spent, and what we experienced each day. We realized there wasn’t a single platform that allowed us to *document, plan, and visualize* our journeys in one cohesive space. That frustration became our inspiration. 
-                </p>
-                <p>
-                    <strong>WanderLog</strong> was born from our desire to streamline travel journaling, an Android app that not only captures memories but also makes them easy to revisit, reflect on, and share.
-                </p>
+          <div class="section">
+            <h2>The Problem</h2>
+            <p>
+              Travel journaling is scattered. During our study abroad semester, my teammate and I constantly switched between Google Sheets, gallery apps, maps, and notebooks just to track where we went, how much we spent, and what we experienced. None of the tools we used captured the full journey in a cohesive, reflective way.
+            </p>
+          </div>
+      
+          <div class="section">
+            <h2>The Opportunity</h2>
+            <p>
+              <strong>How might we</strong> create a single platform where travelers can document, organize, and relive their journeys—frictionlessly and meaningfully?
+            </p>
+          </div>
+      
+          <div class="section">
+            <h2>The Solution</h2>
+            <p>
+              <strong>WanderLog</strong> is a pocketable travel journal built for memory-keeping, planning, and reflection. Designed with an offline-first mindset, it makes travel documentation delightful—whether you're on the move or reminiscing from home.
+            </p>
+          </div>
+      
+          <div class="section">
+            <h2>My Role</h2>
+            <p>
+              I led the UI/UX and frontend development using Jetpack Compose. I designed key features like journal entry flows, expense visualization, photo sharing, and navigation. Daniel Lumbu, my teammate, handled backend development with Firebase and Room to ensure real-time sync and offline access.
+            </p>
+          </div>
+      
+          <div class="section">
+            <h2>Timeline</h2>
+            <p><strong>November – December 2024</strong> (2-month sprint)</p>
+          </div>
+      
+          <div class="section">
+            <h2>Key Features</h2>
+            <div class="feature-grid">
+              <div class="feature-card">
+                <h4>Travel Journaling</h4>
+                <p>Capture your adventures with photos, videos, geotags, and reflections—designed for you, not social media.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Interactive Maps</h4>
+                <p>Relive your journey spatially with pinned memories using the Google Maps SDK.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Photo Albums</h4>
+                <p>Sort your travel photos by trip. Add captions, view in LazyGrid galleries, and keep everything organized.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Expense Tracking</h4>
+                <p>Log your spending and visualize it with animated pie and bar charts via the Vico library.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Itinerary Planner</h4>
+                <p>Structure your days with planned activities, notes, and a timeline or calendar view.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Offline Journaling</h4>
+                <p>Write, capture, and save even without internet. Syncs automatically when reconnected using Room and Firebase.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Trip Stats</h4>
+                <p>Animated summaries of your adventure—distance traveled, places visited, and money spent.</p>
+              </div>
+              <div class="feature-card">
+                <h4>Collaborative Journals</h4>
+                <p>Invite friends to co-create a journal in real time. Perfect for shared trips, powered by Firebase sync.</p>
+              </div>
             </div>
-    
-            <div class="section">
-                <h2>My Role</h2>
-                <p>I led the UI/UX and frontend development using Jetpack Compose, designing intuitive screens for trip journaling, expense visualization, and photo sharing. Daniel Lumbu, my teammate, developed the backend, integrating Firebase and Room to support real-time sync and offline capabilities.</p>
+          </div>
+      
+          <div class="section">
+            <h2>Design Philosophy</h2>
+            <p>Our design values were simplicity, delight, and offline-first usability. Every interaction was crafted to center the user’s story.</p>
+            <ul>
+              <li><strong>Navigation:</strong> BottomNav for Trips, Map, Photos, Expenses, and Profile</li>
+              <li><strong>Quick Actions:</strong> FloatingActionButton for instant journaling or uploads</li>
+              <li><strong>Performance:</strong> LazyColumn & LazyGrid for smooth rendering</li>
+              <li><strong>Feedback:</strong> Subtle animations for transitions, maps, and charts</li>
+            </ul>
+      
+            <div class="image-gallery">
+              <img src="images/wanderlog1.png" alt="Trip overview page with stats and gallery">
+              <img src="images/wanderlog2.png" alt="Interactive map with pinned photo locations">
+              <img src="images/wanderlog3.png" alt="Expense chart displaying trip costs by category">
             </div>
+          </div>
+      
+          <div class="section">
+            <h2>Tech Stack & Tools</h2>
+            <ul>
+              <li><strong>Frontend:</strong> Jetpack Compose (Scaffold, LazyColumn, LazyGrid, animations)</li>
+              <li><strong>Maps:</strong> Google Maps SDK for Android</li>
+              <li><strong>Multimedia:</strong> Coil for image loading, native camera integration</li>
+              <li><strong>Storage:</strong> Room (offline), Firebase Realtime Database (sync)</li>
+              <li><strong>Data Visualization:</strong> Vico charting library</li>
+            </ul>
+          </div>
+      
+          <div class="section">
+            <h2>Challenges</h2>
+            <ul>
+              <li>Syncing photo, text, and location data between offline and cloud databases</li>
+              <li>Balancing rich content with performance on lower-end devices</li>
+              <li>Designing a cohesive app that worked as a journal, planner, and budgeting tool</li>
+            </ul>
+          </div>
+      
+          <div class="section">
+            <h2>Results & Impact</h2>
+            <p>
+              WanderLog reduced friction in planning and reflecting. Our testers found it 70% more intuitive than switching between multiple tools, and loved the offline journaling feature for travel days without signal.
+            </p>
+          </div>
+      
+          <div class="section">
+            <h2>Future Directions</h2>
+            <ul>
+              <li>AI-powered recommendations based on past trip patterns</li>
+              <li>Public and private journal sharing options</li>
+              <li>Gamification: badges for places visited, steps walked, and more</li>
+              <li>Integration with APIs for hotels, restaurants, and attractions</li>
+            </ul>
+          </div>
+      
     
-            <div class="section">
-                <h2>Timeline</h2>
-                <p><strong>November – December 2024</strong> (2-month sprint)</p>
-            </div>
-    
-            <div class="section">
-                <h2>Key Features</h2>
-                <div class="feature-grid">
-                    <div class="feature-card">
-                        <h4>Travel Journaling</h4>
-                        <p>Document daily adventures through rich journal entries with photos, videos, and geotags. Think of it like Instagram—but personal and designed for memory-keeping.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4>Interactive Maps</h4>
-                        <p>See your trip visualized on a map. Every photo you upload is tied to a location, and pinned via the Google Maps SDK to help relive your journey spatially.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4> Photo Albums</h4>
-                        <p>Organize travel photos into trip-specific galleries. Users can add captions and arrange their memories chronologically using LazyGrid for fast rendering.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4> Expense Tracking</h4>
-                        <p>Track how much you spent on food, transport, or accommodation. View beautiful pie or bar charts with the Vico library to reflect on trip budgeting.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4> Itinerary Planner</h4>
-                        <p>Plan out your trip day-by-day with activities, times, and notes. View plans as an expandable timeline or calendar.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4> Offline Journaling</h4>
-                        <p>Jot down memories or upload photos even without Wi-Fi. Everything syncs automatically once you're reconnected, thanks to Room database and Firebase.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4> Trip Stats</h4>
-                        <p>WanderLog summarizes your adventure with animated graphs: total distance traveled, expenses, and number of places visited—perfect for visual retrospectives.</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4> Collaborative Journals</h4>
-                        <p>Optional: Invite travel companions to contribute to the same journal. Built with Firebase to sync shared memories in real time.</p>
-                    </div>
-                </div>
-            </div>
-    
-            <div class="section">
-                <h2>Design Philosophy</h2>
-                <p>
-                    Our design philosophy focused on *simplicity*, *delight*, and *offline-first usability*. We prioritized meaningful interaction over visual clutter—making sure every element on screen helped tell a story.
-                </p>
-                <ul>
-                    <li><strong>Navigation:</strong> BottomNavigation for Trips, Map, Photos, Expenses, and Profile sections</li>
-                    <li><strong>Quick Actions:</strong> FloatingActionButton for instant journaling or uploading photos</li>
-                    <li><strong>Performance:</strong> LazyColumn & LazyGrid for scalable rendering of entries and media</li>
-                    <li><strong>Feedback:</strong> Smooth animations to guide users during transitions, map interactions, and chart loading</li>
-                </ul>
-    
-                <div class="image-gallery">
-                    <img src="images/wanderlog1.png" alt="Trip overview page with stats and gallery">
-                    <img src="images/wanderlog2.png" alt="Interactive map with pinned photo locations">
-                    <img src="images/wanderlog3.png" alt="Expense chart displaying trip costs by category">
-                </div>
-            </div>
-    
-            <div class="section">
-                <h2>Tech Stack & Tools</h2>
-                <ul>
-                    <li><strong>Frontend:</strong> Jetpack Compose (Scaffold, LazyColumn, LazyGrid, animations)</li>
-                    <li><strong>Maps:</strong> Google Maps SDK for Android</li>
-                    <li><strong>Multimedia:</strong> Coil for image loading, native camera integration for in-app captures</li>
-                    <li><strong>Storage:</strong> Room (offline storage), Firebase Realtime Database (sync and collaboration)</li>
-                    <li><strong>Data Visualization:</strong> Vico library for interactive and animated charts</li>
-                </ul>
-            </div>
-    
-            <div class="section">
-                <h2>Challenges</h2>
-                <ul>
-                    <li>Syncing photo, text, and location data between offline and cloud databases smoothly</li>
-                    <li>Balancing rich multimedia content with performance on low-end devices</li>
-                    <li>Designing a cohesive experience that was functional both as a trip planner and memory keeper</li>
-                </ul>
-            </div>
-    
-            <div class="section">
-                <h2>Results & Impact</h2>
-                <p>Users found it 70% more engaging than using separate tools for travel documentation. It reduced friction in planning and reflecting, and made it fun to journal on the go—even offline.</p>
-            </div>
-    
-            <div class="section">
-                <h2>Future Directions</h2>
-                <ul>
-                    <li>AI-powered travel recommendations based on past trips</li>
-                    <li>Public trip pages and private sharing with select friends</li>
-                    <li>Gamified experiences (badges for number of countries visited, steps walked, etc.)</li>
-                    <li>Integration with travel APIs for hotel bookings or restaurant finds</li>
-                </ul>
-            </div>
         </div>
-    </div>
-    
-
+      </div>
+      
+              
+                
 
   <div class="case-study-detail" id="caseStudy5">
     <div class="detail-header">
@@ -826,133 +869,161 @@
 </div>
 
 
-    <div class="case-study-detail" id="caseStudy6">
-    <div class="detail-header">
-        <button class="back-btn" onclick="goBack()">←</button>
-        <h1>AI Puzzle Game: Designing Playful Learning Tools for AI Literacy</h1>
-    </div>
-    <div class="detail-content">
+<div class="case-study-detail" id="caseStudy6">
+  <div class="detail-header">
+    <button class="back-btn" onclick="goBack()">←</button>
+    <h1>AI Puzzle Game: Designing Playful Learning Tools for AI Literacy</h1>
+  </div>
+  <div class="detail-content">
 
-        <div class="section">
-            <h2>Project Overview</h2>
-            <h3>Introduction</h3>
-            <p>This ongoing UI/UX project focuses on designing AI-based puzzle games that help students across disciplines understand and experiment with generative AI tools like ChatGPT. The games aim to make AI learning more accessible, meaningful, and fun.</p>
+<div class="section">
+  <h2>Project Overview</h2>
+  <h3>Introduction</h3>
+  <p>This ongoing UI/UX project focuses on designing AI-based puzzle games that help students across disciplines understand and experiment with generative AI tools like ChatGPT. The games aim to make AI learning more accessible, meaningful, and fun.</p>
 
-            <h3>Role</h3>
-            <p>UX Designer & Researcher</p>
+  <h3>Role</h3>
+  <p>UX Designer & Researcher</p>
 
-            <h3>Timeline</h3>
-            <p>May 2025 – Present (Prototype release planned for mid-July 2025)</p>
+  <h3>Timeline</h3>
+  <p>OnGoing</p>
 
-            <h3>Objectives</h3>
-            <ul>
-                <li>Design inclusive AI puzzles tailored to student needs</li>
-                <li>Publish a playable prototype by July</li>
-                <li>Develop a framework for scalable puzzle creation</li>
-                <li>Promote AI literacy through engaging, low-barrier formats</li>
-            </ul>
-            <div class="image-placeholder">[AI Puzzle Ideation Sketches or Draft Flow(In progress)]</div>
-        </div>
-
-        <div class="section">
-            <h2>Problem Space</h2>
-            <h3>Challenges</h3>
-            <p>Most students are curious about AI but don’t engage deeply due to a lack of playful, discipline-specific entry points. There are limited tools that teach AI usage in an interactive and inclusive format.</p>
-
-            <h3>Why It Matters</h3>
-            <p>We believe that playful learning lowers intimidation and encourages experimentation with AI, building critical AI literacy that is applicable across fields.</p>
-            <div class="image-placeholder">[Problem Context Diagram or Persona Mapping]</div>
-        </div>
-
-        <div class="section">
-            <h2> Research Phase (Current)</h2>
-            <h3>Methods</h3>
-            <ul>
-                <li>Semi-structured interviews</li>
-                <li>Participatory design workshops</li>
-                <li>Contextual inquiry</li>
-            </ul>
-
-            <h3>Sample Interview Questions</h3>
-            <ul>
-                <li>"Tell me about a time you used ChatGPT for a class. What did you use it for?"</li>
-                <li>"What kind of puzzle formats (word, logic, scenario) do you enjoy most?"</li>
-                <li>"Would real-time feedback in a puzzle be helpful or distracting?"</li>
-            </ul>
-
-            <h3>Stakeholders Interviewed</h3>
-            <ul>
-                <li>Students from multiple majors</li>
-                <li>Faculty in AI and digital pedagogy</li>
-                <li>Learning center staff</li>
-            </ul>
-
-            <h3>Tools Used</h3>
-            <p>Otter.ai for transcription, Google Forms, Zoom, and Notion for affinity mapping and axial coding.</p>
-            <div class="image-placeholder">[Interview Coding Output or Tag Cloud]</div>
-        </div>
-
-        <div class="section">
-            <h2>Participatory Design</h2>
-            <h3>Approach</h3>
-            <p>We involved users directly in design through co-design sessions and fictional inquiry exercises, creating inclusive and adaptable puzzle mechanics.</p>
-
-            <h3>Activities</h3>
-            <ul>
-                <li>Focus group playtests of draft puzzles</li>
-                <li>Figma-based prototyping sessions</li>
-                <li>Brainstorming puzzles by major (e.g., Biology puzzle vs. CS puzzle)</li>
-            </ul>
-            <div class="image-placeholder">[Screenshots of Co-Design Session or Figma Draft]</div>
-        </div>
-
-        <div class="section">
-            <h2>Design & Development (Planned)</h2>
-            <h3>Tools & Platforms</h3>
-            <ul>
-                <li>Figma for early UI concepts</li>
-                <li>Android Studio for mobile version</li>
-                <li>React for web deployment</li>
-                <li>OpenAI / Gemini API for puzzle interactivity</li>
-            </ul>
-
-            <h3>Upcoming Steps</h3>
-            <ul>
-                <li>Finalize prototype from co-design sessions</li>
-                <li>Run A/B testing across majors</li>
-                <li>Launch and analyze pilot feedback</li>
-            </ul>
-        </div>
-
-        <div class="section">
-            <h2>Expected Outcomes</h2>
-            <div class="metrics-grid">
-                <div class="metric-card">
-                    <div class="metric-number">1+</div>
-                    <div class="metric-label">Playable Puzzle by July</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-number">4-6</div>
-                    <div class="metric-label">Departments Involved</div>
-                </div>
-                <div class="metric-card">
-                    <div class="metric-number">3</div>
-                    <div class="metric-label">Prototypes Iterated</div>
-                </div>
-            </div>
-
-            <h3>Lessons Learned (So Far)</h3>
-            <p>Disciplinary needs vary widely; involving users early helps surface features we might overlook. Students value AI tools when they are fun, useful, and tied to their academic needs.</p>
-
-            <h3>Next Steps</h3>
-            <ul>
-                <li>Complete interview phase and analyze insights</li>
-                <li>Co-create puzzle flows and refine UI</li>
-                <li>Develop MVP and test usability</li>
-            </ul>
-        </div>
-    </div>
+  <h3>Objectives</h3>
+  <ul>
+    <li>Design inclusive AI puzzles tailored to student needs</li>
+    <li>Publish a playable prototype by July</li>
+    <li>Develop a framework for scalable puzzle creation</li>
+    <li>Promote AI literacy through engaging, low-barrier formats</li>
+  </ul>
 </div>
+
+<div class="section">
+  <h2>Problem Space</h2>
+  <h3>Challenges</h3>
+  <p>Most students are curious about AI but don’t engage deeply due to a lack of playful, discipline-specific entry points. There are limited tools that teach AI usage in an interactive and inclusive format.</p>
+
+  <h3>Why It Matters</h3>
+  <p>We believe that playful learning lowers intimidation and encourages experimentation with AI, building critical AI literacy that is applicable across fields.</p>
+</div>
+
+<div class="section">
+  <h2>Phase 1: Stakeholder Engagement & Participatory Design</h2>
+  <h3>Stakeholders: Who & Why</h3>
+  <ul>
+    <li>Students from diverse majors (main user base)</li>
+    <li>Faculty exploring AI or digital pedagogy</li>
+    <li>Learning support staff</li>
+  </ul>
+  <p>Students gain low-barrier exposure to AI through fun puzzles. Faculty can use the puzzles in class. Staff benefit from fresh learning resources.</p>
+
+  <h3>Motivation & Origin</h3>
+  <p>The idea originated from interest in AI, game-based learning, and inclusive design. A conversation around Carleton’s Amplify AI platform sparked the idea of guided puzzles for fun, contextual learning.</p>
+
+  <h3>Stakeholder Recruitment Strategy</h3>
+  <ul>
+    <li>Targeted summer students from various majors</li>
+    <li>Criteria: academic diversity, AI experience levels, and willingness to co-create</li>
+    <li>Methods: in-person requests, emails, peer outreach, casual invites</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Research Phase</h2>
+  <h3>Methodology: Semi-Structured Interviews</h3>
+  <p>We conducted a series of semi-structured interviews to understand what makes AI puzzle games meaningful, fun, and educational.</p>
+
+  <h4>Sample Interview Questions</h4>
+  <ul>
+    <li>"Tell me about a time you used ChatGPT or another AI tool for a class."</li>
+    <li>"What kind of AI puzzle formats would be fun but not frustrating?"</li>
+    <li>"What would make a puzzle feel relevant to your major?"</li>
+    <li>"How would you know if a puzzle helped you understand AI better?"</li>
+    <li>"What features would make you recommend a puzzle to others?"</li>
+  </ul>
+
+  <h3>Participatory Design</h3>
+  <p>We invited students into the design process through:</p>
+  <ul>
+    <li>Focus groups and playtesting of draft puzzles</li>
+    <li>Fictional inquiry (e.g., "Imagine a biology major using AI in a puzzle…")</li>
+    <li>Figma and paper prototyping</li>
+  </ul>
+
+  <h3>Post-Interview Analysis</h3>
+  <p>We transcribed and coded responses using Otter.ai and axial coding to find patterns across disciplines. This helped prioritize features that appeared repeatedly in interviews.</p>
+</div>
+
+<div class="section">
+  <h2>Insights from Interviews</h2>
+  <ul>
+    <li>Users prefer puzzles that challenge logic, vocabulary, and problem-solving skills.</li>
+    <li>Adjustable difficulty and feedback are critical for sustained engagement.</li>
+    <li>Strong visuals and feedback controls improve the experience.</li>
+    <li>Players want relevance to real-world tasks (e.g., interview prep, data tasks).</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>What We’re Building</h2>
+  <h3>Core Features</h3>
+  <ul>
+    <li>Logic/strategy, word-based, and technical coding puzzles</li>
+    <li>AI-based hints, feedback toggle, and adaptive difficulty</li>
+    <li>Visual UI/UX with social features like leaderboards</li>
+    <li>Skill tracking and relevance to academic/professional goals</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Design & Development (Current Phase)</h2>
+  <h3>Tools & Platforms</h3>
+  <ul>
+    <li>Figma for UI design</li>
+    <li>React for web deployment</li>
+    <li>Android Studio for mobile app (optional)</li>
+    <li>OpenAI or Gemini API for puzzle interaction</li>
+  </ul>
+
+  <h3>Next Steps</h3>
+  <ul>
+    <li>Define MVP with two puzzle formats</li>
+    <li>Prototype gameplay and AI feedback logic</li>
+    <li>Conduct usability testing and iterate</li>
+    <li>Prepare pilot launch and analyze feedback</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Expected Outcomes</h2>
+  <div class="metrics-grid">
+    <div class="metric-card">
+      <div class="metric-number">1+</div>
+      <div class="metric-label">Playable Puzzle by July</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-number">4–6</div>
+      <div class="metric-label">Departments Involved</div>
+    </div>
+    <div class="metric-card">
+      <div class="metric-number">3</div>
+      <div class="metric-label">Prototypes Iterated</div>
+    </div>
+  </div>
+
+  <h3>Lessons Learned</h3>
+  <p>Disciplinary needs and user expectations vary widely. Involving users early through interviews and participatory design revealed surprising preferences (e.g., word puzzles, visual cues, selective feedback).</p>
+
+  <h3>What Comes Next</h3>
+  <ul>
+    <li>Build and test MVP</li>
+    <li>Run usability studies</li>
+    <li>Deploy beta version for pilot use</li>
+    <li>Collect feedback for final iteration</li>
+  </ul>
+</div>
+
+  </div>
+</div>
+
 
     <link rel="stylesheet" href="styles.css" />
 <script src="script.js" defer></script>
